@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+    height: 100vh;
+    overflow: hidden;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    background-color:#004fff;
+    border: none;
+    color: white;
+    box-shadow: 0 4px 16px rgba(0, 79, 255, 0.3);
+    font-size: 16px;
+    font-weight: 16px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50, -50);
+    transition: 0.3s;
+}
+button:focus{
+    outline: 0;
+}
+button:hover{
+    background-color: rgba(0, 79, 255, 0.9);
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 79, 255, 0.9)
+}
+h1{
+    position: absolute;
+    top: 43%;
+    left: 46.5%;
+    color: azure;
+}
+h2{
+    position: absolute;
+    top: 6%;
+    left: 95%;
+    color: azure;
+}
+h3{
+    position: absolute;
+    top: 95%;
+    left: 86%;
+    color: azure;
+}

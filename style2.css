@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+    height: 100vh;
+    overflow: hidden;
+}
+h1{
+    position: absolute;
+    top: 8%;
+    left: 46.5%;
+    color: azure;
+}
+h2{
+    position: absolute;
+    top: 6%;
+    left: 95%;
+    color: azure;
+}
+h3{
+    position: absolute;
+    top: 2%;
+    left: 0.9%;
+    color: azure;
+}
+h4{
+    position: absolute;
+    top: 0.0001%;
+    left: 0.9%;
+    color: azure;
+}
